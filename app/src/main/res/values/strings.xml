@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Business card</string>
+    <string name="person_name">Emma Watson</string>
+    <string name="person_occupaton">Actress, Activist</string>
+    <string name="get_in_touch">Get in touch</string>
+
+    <string name="about_title">About</string>
+    <string name="about_content">Emma Watson was born on April 15, 1990, in Paris, France, but raised in England.
+        The actress got her breakthrough role as a child in the hugely successful <i>Harry Potter</i> film franchise.
+        \n\nAfter committing to the Harry Potter series for a decade,
+        Watson has transitioned into a popular adult model and actress, having appeared in the popular films
+        <i>The Perks of Being a Wallflower</i>, <i>My Week with Marilyn</i> and <i>Beauty and the Beast</i>.</string>
+    <string name="experience_title">Work</string>
+    <string name="experience_content"><b>Recent projects:</b>\n
+        \nBeauty and the Beast (2017)
+        \nThe Circle (2017)
+        \nThe Million Dollar Nickel (2016)
+        \nThe Colony (2015)
+        \nNoah (2014)
+        \nThe Perks of Being a Wallflower (2012)
+        \nHarry Potter and the Deathly Hallows: Part 2 (2011)</string>
+    <string name="achievements_title">Awards</string>
+    <string name="achievements_content"><b>Won:</b>\n
+        \n2017 :: Best Actor in a Movie
+        \n2014 :: British Artist of the Year
+        \n2011 :: Capri Ensemble Cast Award
+        \n2005-2007/2009 :: Best Actress - Bravo Otto
+        \n2007 :: Best Performance by a Female</string>
+    <string name="contacts_title">Contact</string>
+    <string name="contacts_content"><b>Phone:</b> +1-888-555-3333
+        \n<b>Email:</b> emma.watson@hollywood.com
+        \n<b>Facebook:</b> facebook.com/emma_watson
+        \n<b>Instagram:</b> @emmawatson</string>
+
+</resources>

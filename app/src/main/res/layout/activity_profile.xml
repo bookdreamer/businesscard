@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yyablunovska.businesscard.ProfileActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/face_card_height"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        app:cardBackgroundColor="@color/colorPrimary" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/margin_8" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/avatar"
+                android:src="@drawable/emma_watson_photo"
+                android:layout_width="@dimen/avatar_size"
+                android:layout_height="@dimen/avatar_size"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:layout_marginRight="@dimen/margin_8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                app:civ_border_width="@dimen/avatar_border_width"
+                app:civ_border_color="@android:color/white"
+                android:elevation="@dimen/avatar_elevation" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/name_text_size"
+                android:textStyle="bold"
+                android:text="@string/person_name" />
+
+            <TextView
+                android:id="@+id/occupation_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:text="@string/person_occupaton" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/contact_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/contact_btn_width"
+        android:layout_height="@dimen/contact_btn_height"
+        android:layout_marginTop="@dimen/contact_btn_top"
+        android:layout_centerHorizontal="true"
+        android:elevation="@dimen/contact_btn_elevation"
+        android:background="@android:color/white"
+        android:text="@string/get_in_touch"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/contact_btn_text_size"
+        android:shadowDx="@integer/shadow_size"
+        android:shadowDy="@integer/shadow_size"
+        android:shadowColor="@android:color/black" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/contact_btn"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_centerHorizontal="true" >
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:tabTextColor="@color/tab_unselected"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabIndicatorColor="@android:color/white" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_height" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

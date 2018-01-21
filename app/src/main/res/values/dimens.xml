@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="face_card_height">145dp</dimen>
+    <dimen name="avatar_border_width">2dp</dimen>
+    <dimen name="avatar_elevation">4dp</dimen>
+    <dimen name="avatar_size">84dp</dimen>
+    <dimen name="contact_btn_elevation">6dp</dimen>
+    <dimen name="contact_btn_width">200dp</dimen>
+    <dimen name="contact_btn_height">55dp</dimen>
+    <dimen name="contact_btn_top">125dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+
+    <dimen name="name_text_size">24sp</dimen>
+    <dimen name="contact_btn_text_size">18sp</dimen>
+
+
+    <integer name="shadow_size">2</integer>
+</resources>
